@@ -1,0 +1,5 @@
+PHP Warning:  XDebug extension detected. Remember to disable this if performance testing or going live! in /home/renald/.openshift/venantvr/vendor/cboden/ratchet/src/Ratchet/App.php on line 65
+PHP Stack trace:
+PHP   1. {main}() /home/renald/.openshift/venantvr/bin/chat.php:0
+PHP   2. Ratchet\App->__construct() /home/renald/.openshift/venantvr/bin/chat.php:45
+PHP   3. trigger_error() /home/renald/.openshift/venantvr/vendor/cboden/ratchet/src/Ratchet/App.php:65

@@ -1,0 +1,64 @@
+<style>
+.bubble{
+  position: relative;
+  /*right:50px;*/
+  background-color:white;
+  /*text-align:center;*/
+  width:200px;
+  border:2px solid #555555;
+  margin:10px;
+  padding:20px;
+  /* ... */
+  /* propriété CSS3 (fonctionne sous Opera) */
+  border-top-right-radius:40px 40px;
+  border-top-left-radius:40px 40px;
+  border-bottom-right-radius:40px 40px;
+  border-bottom-left-radius:40px 40px;
+  /* implémentation Firefox */
+  -moz-border-radius-topright:40px 40px;
+  -moz-border-radius-topleft:40px 40px;
+  -moz-border-radius-bottomright:40px 40px;
+  -moz-border-radius-bottomleft:40px 40px;
+  /* implémentation Chrome, Safari, ... */
+  -webkit-border-top-right-radius:40px 40px;
+  -webkit-border-top-left-radius:40px 40px;
+  -webkit-border-bottom-right-radius:40px 40px;
+  -webkit-border-bottom-left-radius:40px 40px;
+}
+.left{ text-align:left; float:left; }
+.right{ text-align:right; float:right; }
+</style>
+
+<!-- notre bulle -->
+<div class="bubble right">
+
+  <!-- le texte qui apparaitra dans la bulle -->
+  <span id="text">
+    I never really was on your side.
+  </span>
+
+  <!-- 2 spans qui nous serviront à créer la flèche pointant vers notre personnage -->
+  <!--span id="arrow_border"></span>
+  <span id="arrow_inner"></span-->
+
+</div>
+<br/>
+<br/>
+<br/>
+
+<div class="bubble left">
+
+  <!-- le texte qui apparaitra dans la bulle -->
+  <span id="text">
+    I never really was on your side.
+  </span>
+
+  <!-- 2 spans qui nous serviront à créer la flèche pointant vers notre personnage -->
+  <!--span id="arrow_border"></span>
+  <span id="arrow_inner"></span-->
+
+</div>
+
+<!-- notre personnage -->
+</div>
+
