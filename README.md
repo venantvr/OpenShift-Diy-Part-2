@@ -12,7 +12,4 @@ Cas d'usage reel de WebSockets sur OpenShift DIY : extension du POC vers un chat
 
 ## Stack
 
-- PHP
-- WebSockets
-- HTML
-- OpenShift DIY
+[![Stack](https://skillicons.dev/icons?i=js,openshift,html,php&theme=dark)](https://skillicons.dev)
